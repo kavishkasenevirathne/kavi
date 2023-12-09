@@ -1,0 +1,49 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('./images/bg2.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    min-height: 100vh; /* Set minimum height to cover the entire viewport vertically */
+    
+}
+
+/* Additional styling for header, main, footer, etc. can be added here */
+
+h1 {
+    font-family: 'Nova Square', sans-serif;  /* Set the font family for headings. */
+    font-size: 2em; /* Set the font size for headings. Adjust as needed. */
+    font-weight: bold; /* Set the font weight for headings. */
+    color: rgb(123, 122, 122);
+    position: absolute;
+    top: 20px; /* Adjust the top distance as needed */
+    right: 20px; /* Adjust the right distance as needed */
+    margin: 0;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Adjust the top distance as needed */
+    left: 10px; /* Adjust the left distance as needed */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
